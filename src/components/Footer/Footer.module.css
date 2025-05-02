@@ -1,0 +1,31 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+  width: 100%;
+  
+  margin: 0 auto;           /* centra el footer dentro del viewport */
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* centra los iconos y el texto */
+  gap: 1rem;
+  }
+  
+  .footer .text {
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icons a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .icons a:hover {
+    color: #646cff;
+  }
+  

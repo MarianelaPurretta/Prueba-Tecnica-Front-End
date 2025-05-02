@@ -1,24 +1,46 @@
-/* src/components/Parent/Parent.module.css */
+
+
 .container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+
+  width: 100%;          
+  margin: 0 auto;       
+  padding: 4rem;
 }
 
-.title {
-  font-size: 2rem;
+.pageTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #767a94;
+}
+
+.group {
+  margin-bottom: 2rem;
+}
+
+.groupHeader {
+  padding: 0.5rem 1rem;
+  color: #ebecee;
+  font-weight: bold;
+  border-radius: 4px;
   margin-bottom: 1rem;
   text-align: center;
+  background-color: #4f58729d;
 }
 
+.cardsGrid {
+  display: grid;
+  /* Ajusta el minmax a tu gusto, aquí 250px como mínimo */
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+  width: 100%;           /* fuerza a ocupar todo el ancho disponible */
+  box-sizing: border-box;
+  
+}
+
+/* Estado cargando */
 .loading {
   text-align: center;
-  margin-top: 2rem;
   font-style: italic;
-}
-
-.empty {
-  text-align: center;
-  margin-top: 1rem;
-  color: #666;
+  margin-top: 2rem;
 }
