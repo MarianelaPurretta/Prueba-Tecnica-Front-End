@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import React from 'react';
 import Navbar from './components/Navbar';
 import Parent from './components/Parent';

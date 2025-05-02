@@ -30,10 +30,9 @@
 
 .cardsGrid {
   display: grid;
-  /* Ajusta el minmax a tu gusto, aquí 250px como mínimo */
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 2rem;
-  width: 100%;           /* fuerza a ocupar todo el ancho disponible */
+  width: 100%;           
   box-sizing: border-box;
   
 }

@@ -6,7 +6,7 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>Miarianela Purretta</div>
+      <div className={styles.logo}>Marianela Purretta</div>
       <div className={styles.icons}>
         <a href="https://github.com/MarianelaPurretta" target="_blank" rel="noopener">
           <FaGithub size={24} />

@@ -1,4 +1,3 @@
-// src/components/Child/index.jsx
 
 import React, { useState } from 'react';
 import styles from './Child.module.css';

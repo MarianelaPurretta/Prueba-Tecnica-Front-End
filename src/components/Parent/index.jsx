@@ -1,4 +1,3 @@
-// src/components/Parent/index.jsx
 
 import React, { useEffect, useState } from 'react';
 import styles from './Parent.module.css';

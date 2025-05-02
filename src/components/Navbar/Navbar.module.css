@@ -1,11 +1,11 @@
-/* src/components/Navbar/Navbar.module.css */
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;            /* usa todo el ancho de la ventana */
+  width: 100%;            
   padding: 0.75rem 1rem;
-  box-sizing: border-box;  /* incluye el padding dentro de ese ancho */
+  box-sizing: border-box;  
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
